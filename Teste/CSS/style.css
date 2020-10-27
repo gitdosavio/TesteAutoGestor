@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9e6e6;
+    height: 100vh;
+   
+  }
+ 
+  
+#topo {
+ 
+  background-color: rgba(32, 32, 32, 0.1);
+  display: block;
+
+}
+#logo{
+  margin-left: 600px;
+}
+#menu ul {
+  padding:0px;
+  margin:0px;
+  background-color:#222222;
+  list-style:none;
+}
+#corpo-cad {
+  
+  margin-left: 600px;
+}
+input {
+  display: block;
+  margin-bottom: 10px;
+  
+}
+
+
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+  padding: 10px 40px;
+  display: inline-block;
+
+  background-color:#222222;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-bottom:3px solid #201f1f;
+}
+
+#menu ul li a:hover {
+  background-color:#000000;
+  color: #fffefe;
+  border-bottom:3px solid #222222;
+}
+
+#divBusca{
+ margin-left: 555px;
+ margin-top: 50px;
+ margin-bottom: 20px;
+  border:solid 1px;
+  border-radius:15px;
+  height:35px;
+  width:250px;
+}
+
+#pesquisa{
+  float:center;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  margin-bottom: 20px;
+  height:35px;
+  width:250px;
+}
+
+#divcadastro{
+  margin-left: 0px;
+  margin-top: 20px;
+   border:solid 1px;
+   border-radius:15px;
+   width:250px;
+   background-color:transparent;
+ }
+
